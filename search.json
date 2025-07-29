@@ -1,16 +1,37 @@
 [
   {
+    "objectID": "simulations.html",
+    "href": "simulations.html",
+    "title": "Simulations",
+    "section": "",
+    "text": "In this project, I simulate the spread of a forest fire on a 100×100 grid. Each cell in the grid can be in one of four states: tree (blue), grassland( light blue), burning tree (orange), or burnt tree (red). The goal is to understand how forest density influences fire spread, and to explore extensions such as the effect of wind."
+  },
+  {
+    "objectID": "simulations.html#fire-spread-simulation",
+    "href": "simulations.html#fire-spread-simulation",
+    "title": "Simulations",
+    "section": "",
+    "text": "In this project, I simulate the spread of a forest fire on a 100×100 grid. Each cell in the grid can be in one of four states: tree (blue), grassland( light blue), burning tree (orange), or burnt tree (red). The goal is to understand how forest density influences fire spread, and to explore extensions such as the effect of wind."
+  },
+  {
+    "objectID": "simulations.html#a-rod-pendulum-system",
+    "href": "simulations.html#a-rod-pendulum-system",
+    "title": "Simulations",
+    "section": "A Rod-Pendulum System",
+    "text": "A Rod-Pendulum System\nExploring a common physics problem!"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "My name is Cosme Aquino Ovelar and this is my website\n\n1 + 1\n\n[1] 2"
+    "text": "From the Heart of South America, currently based in Bonn, Germany."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "aquinocosme",
+    "title": "Cosme Aquino Ovelar",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Permanently under construction."
   }
 ]

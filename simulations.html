@@ -112,8 +112,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#fire-spread-simulation" id="toc-fire-spread-simulation" class="nav-link active" data-scroll-target="#fire-spread-simulation">Fire Spread Simulation</a></li>
+  <li><a href="#a-rod-pendulum-system" id="toc-a-rod-pendulum-system" class="nav-link" data-scroll-target="#a-rod-pendulum-system">A Rod-Pendulum System</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -137,8 +144,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="fire-spread-simulation" class="level2">
+<h2 class="anchored" data-anchor-id="fire-spread-simulation">Fire Spread Simulation</h2>
+<p>In this project, I simulate the spread of a forest fire on a 100×100 grid. Each cell in the grid can be in one of four states: tree (blue), grassland( light blue), burning tree (orange), or burnt tree (red). The goal is to understand how forest density influences fire spread, and to explore extensions such as the effect of wind.</p>
+<p><img src="images/forestFire (1).gif" class="img-fluid"></p>
+</section>
+<section id="a-rod-pendulum-system" class="level2">
+<h2 class="anchored" data-anchor-id="a-rod-pendulum-system">A Rod-Pendulum System</h2>
+<p>Exploring a common physics problem!</p>
+<p><img src="images/full_system.gif" class="img-fluid"></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -213,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/aquinocosme\.github\.io\/aquinocosme\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

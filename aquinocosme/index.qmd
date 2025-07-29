@@ -3,3 +3,9 @@ title: "Cosme Aquino Ovelar"
 ---
 
 Permanently under construction.
+
+## Bio
+
+I am an astrophysicist, and master student at the university Bonn.
+
+![](images/IMG_1134%20(1).JPG){fig-align="left" width="500"}

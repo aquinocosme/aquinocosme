@@ -7,16 +7,21 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
       - href: simulations.qmd
+      - href: volunteering.qmd
+      - href: spotlight.qmd
 
 format:
   html:
     theme:
-      - cosmo
+      - lux
       - brand
     css: styles.css
     toc: true
 
 editor: visual
+
+execute:
+  freeze: auto
+
 

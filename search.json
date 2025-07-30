@@ -18,21 +18,21 @@
     "href": "simulations.html",
     "title": "Simulations",
     "section": "",
-    "text": "In this project, I simulate the spread of a forest fire on a 100×100 grid. Each cell in the grid can be in one of four states: tree (blue), grassland( light blue), burning tree (orange), or burnt tree (red). The goal is to understand how forest density influences fire spread, and to explore extensions such as the effect of wind."
+    "text": "In this project, I simulated the spread of a forest fire on a 100×100 grid. Each cell in the grid can be in one of four states: tree (blue), grassland( light blue), burning tree (orange), or burnt tree (red).\nThe goal is to understand how forest density influences fire spread, and to explore extensions such as the effect of wind in the spread of fire in the forest.\nFor a tree density of \\(\\rho = 0.7\\) trees in the forest with no wind:\n\n\nFor a tree density of \\(\\rho = 0.7\\) trees in the forest with wind blowing to the left:"
   },
   {
     "objectID": "simulations.html#fire-spread-simulation",
     "href": "simulations.html#fire-spread-simulation",
     "title": "Simulations",
     "section": "",
-    "text": "In this project, I simulate the spread of a forest fire on a 100×100 grid. Each cell in the grid can be in one of four states: tree (blue), grassland( light blue), burning tree (orange), or burnt tree (red). The goal is to understand how forest density influences fire spread, and to explore extensions such as the effect of wind."
+    "text": "In this project, I simulated the spread of a forest fire on a 100×100 grid. Each cell in the grid can be in one of four states: tree (blue), grassland( light blue), burning tree (orange), or burnt tree (red).\nThe goal is to understand how forest density influences fire spread, and to explore extensions such as the effect of wind in the spread of fire in the forest.\nFor a tree density of \\(\\rho = 0.7\\) trees in the forest with no wind:\n\n\nFor a tree density of \\(\\rho = 0.7\\) trees in the forest with wind blowing to the left:"
   },
   {
     "objectID": "simulations.html#a-rod-pendulum-system",
     "href": "simulations.html#a-rod-pendulum-system",
     "title": "Simulations",
     "section": "A Rod-Pendulum System",
-    "text": "A Rod-Pendulum System\nExploring a common physics problem!"
+    "text": "A Rod-Pendulum System\nExploring a common physics problem using SymPy library."
   },
   {
     "objectID": "index.html",

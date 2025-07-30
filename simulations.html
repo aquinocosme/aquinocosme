@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -150,12 +179,18 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="fire-spread-simulation" class="level2">
 <h2 class="anchored" data-anchor-id="fire-spread-simulation">Fire Spread Simulation</h2>
-<p>In this project, I simulate the spread of a forest fire on a 100×100 grid. Each cell in the grid can be in one of four states: tree (blue), grassland( light blue), burning tree (orange), or burnt tree (red). The goal is to understand how forest density influences fire spread, and to explore extensions such as the effect of wind.</p>
+<p>In this project, I simulated the spread of a forest fire on a 100×100 grid. Each cell in the grid can be in one of four states: tree (blue), grassland( light blue), burning tree (orange), or burnt tree (red).</p>
+<p>The goal is to understand how forest density influences fire spread, and to explore extensions such as the effect of wind in the spread of fire in the forest.</p>
+<p>For a tree density of <span class="math inline">\(\rho = 0.7\)</span> trees in the forest with no wind:</p>
+<p><img src="images/forestFire (2).gif" class="img-fluid"></p>
+<p><img src="images/criticaldensity.png" class="img-fluid"></p>
+<p>For a tree density of <span class="math inline">\(\rho = 0.7\)</span> trees in the forest with wind blowing to the left:</p>
 <p><img src="images/forestFire (1).gif" class="img-fluid"></p>
+<p><img src="images/criticaldensityWind.png" class="img-fluid"></p>
 </section>
 <section id="a-rod-pendulum-system" class="level2">
 <h2 class="anchored" data-anchor-id="a-rod-pendulum-system">A Rod-Pendulum System</h2>
-<p>Exploring a common physics problem!</p>
+<p>Exploring a common physics problem using SymPy library.</p>
 <p><img src="images/full_system.gif" class="img-fluid"></p>
 
 
